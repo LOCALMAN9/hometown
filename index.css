@@ -1,0 +1,112 @@
+
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0px auto;
+    width: 720px;
+    background: #FFF;
+}
+
+.hero {
+    height: 343px;
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #F1FAEE;
+    margin-bottom: 0px;
+    
+}
+
+#hero-title {
+    background: #1D3557;
+    padding: 3px 12px;
+    border-radius: 10px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+#hero-subtitle {
+    background: #457B9D;
+    padding: 5px 28px;
+    border-radius: 10px;
+    font-size: 18.72px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.act-main {
+    background: #F1FAEE;
+    margin-top: -25px;
+}
+
+#act-title {
+    color: #1D3557;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 40px;
+    
+}
+
+.act-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: fill;
+}
+
+.activities {
+    color: #1D3557;
+    text-align: center;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.act-container1, .act-container2, .act-container3 {
+    padding: 10px;
+}
+
+#card-container {
+    width: 720px;
+    margin: 50px 160px;
+}
+
+.card {
+    width: 400px;
+    height: 294px;
+    border-radius: 10px;
+    background: #A8DADC;
+    box-shadow: 0px 6px 0px 0px #1D3557;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.card-img {
+    width: 180px;
+    height: 250px;
+    padding: 23px 0px 23px 13px;
+    border: none;
+    border-radius: 10%;
+}
+
+.card-info {
+    text-align: center;
+    color: #1D3557;
+}
+
+.card-info > p {
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
